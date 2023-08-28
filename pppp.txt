@@ -1,0 +1,88 @@
+BASIC COMMANDS:
+*ls:>>> this command is used to list the files
+*pwd:>>> this command is used to check present working directory
+*git --version:>>this command is used to check version
+*git config --help:>>this command is used to set git configuration values on a local level
+*git init:>>>this command is to create empty local repository
+*mkdir filename:>>>this command is used to create a new file
+*cd filename:>>>this  command is used enter into the file
+*git status:>>>this command is used to check status
+*git add filename:>>this is used to add and move the files from working directory to staging area
+*git commit -m "content":>>>this is used to commit files
+*git log --oneline:>>this is used to show the result in one line
+*git config global -- user.email:>>this is used to link git to github
+REMOVING FILES:
+*vim filename:>> this is used to create a new file
+*ls:>>this command is used to show the files in cd
+*git init:>> this is used to create empty local repository
+*git add:>>this is used to add all the files into staging area
+*git status:>>this is used to check status
+*git commit -m:>>committing files in first round
+*ls:>>to show all the files in staging area
+*git rm filename:>>to check weather the file is deleted or not
+*git rm -r:>>to remove files from both staging and working directory
+*git rm --cached filename:>>remove files from only staging
+*ls:>>to check in working directory weather the file is exit or not
+*git ls -files:>>to check files in staging area
+*rm filename:>>remove files from only working directory
+BRANCHING:
+*mkdir filename:>>to create a new file
+*git init:>>this will create a empty local repository
+*touch filename:>>to create a file type
+*ls:>>to know weather the files is created or not
+*git add:>>to add the file into staging mode
+*git commit -m "content":>>to commit a file
+*git branch:>>to view the branch
+*git status:>>we can also know which branch is active
+*git branch branchname:>>to create a new branch
+*git checkout branchname:>>switch from one branch to another branch
+*git checkout -b branchname:>>creating and switching to branch
+*git checkout master:>>to switch to the master branch
+*ls:>>to create the files
+*ls:>>to list the files from active branch
+*git add filename;>>git commit -m "filename":>>to add the file to a staging and commit mode
+*git ls -files:>>to know the staging files
+*git log --oneline:>>to know the committed file
+MERGING:
+*mkdir filename:>>to create a new file
+*git init:>>to create a empty local repository
+*touch filename:>>to create a file
+*git add filename;git commit -m "filename":>>to add these files to staging and commit mode
+*git log --oneline:>>to know the commits done so far
+*git branch feature:>>to create a new branch
+*git branch:>>to know the branches so far we created in folder
+*git checkout branchname:>>to switch to a feature branch
+*touch filename:>>to create files in branch
+*git add:>>to add the file to staging area
+*git commit:>>to commit the files to commit mode
+*git log --oneline:>>to know the commits
+*git checkout master:>>switch to master branch
+*git branch:>>to know the active branch
+*git merge feature:>>to merge the feature branch to master branch
+*ls:>>to know the total files in master branch
+*git log --oneline:>>to know the commits in master branch
+*mkdir filename2:>>to create another file for merging
+*git init:>>to create empty local repository
+*touch filename:>>to create a new file
+*git add filename;git commit -m "filename":>>to add and commit the files to staging and commit mode
+*git log --oneline:>>to know the commits done in master branch
+*git branch feature:>>to create a feature branch
+*touch filename:>>to create files in feature branch
+*git checkout master:>>to switch to master branch
+*git merge feature:>>merge the feature branch to master branch
+*git log --oneline:>>to know the commits in master branch
+CLONE:
+*git clone :"paste the clone url"
+PUSH:
+$ git push origin main
+PULL:
+$ git pull origin main
+UNDO CHANGES:
+$ git checkout --filename.txt
+COLLABORATION:
+ go to setting > click collaboration > enter your password > click on add people > write email address & select th valid email address > click add this to repository
+ MIGRATION:
+ click on create new > import repository > paste the repository url in dialog box  to which you want to migrate > write the repository name in which you want to migrate the repository > and click begin to import button
+*to accept the invitation go to your organisation & select click on inivite button & accept the invitation
+
+
